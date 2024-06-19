@@ -68,6 +68,10 @@ body {
     color: white;
     font-weight: bold;
     background-color: #3d8168;
+    cursor: pointer;
+}
+.section .content input:hover {
+    background-color: #1a4031;
 }
 .section  form {
     position: relative;
@@ -77,5 +81,14 @@ body {
     top: 60%;
     color: white;
     left: 25%;
+}
+@media(max-width:767px ) {
+    .section {
+        flex-direction: column;
+    }
+    .section img {
+        width: 400px;
+        height: 300px;
+    }
 }
 /* End */
